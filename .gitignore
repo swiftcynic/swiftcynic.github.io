@@ -1,0 +1,45 @@
+# Next.js specific files and directories
+.next/
+out/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Testing and coverage
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# TypeScript cache
+.tsbuildinfo
+
+# next-i18n
+public/locales/*.json
+!public/locales/en/*.json
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on macOS and other systems
+*~
+.nfs*
+%*
+.next/
+.swc/
+.cache/
+.vscode/
+.idea/
+yarn-error.log
+npm-debug.log
