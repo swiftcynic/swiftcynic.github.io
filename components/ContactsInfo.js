@@ -92,6 +92,7 @@ const ContactsInfo = () => {
                 name="title"
                 placeholder="Title"
                 onChange={(e) => setTitle(e.target.value)}
+                required
               />
             </div>
             <div className="group-val ct-gr">
@@ -99,6 +100,7 @@ const ContactsInfo = () => {
                 name="message"
                 placeholder="Message"
                 onChange={(e) => setMessage(e.target.value)}
+                required
               />
             </div>
             <button
